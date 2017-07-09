@@ -207,7 +207,7 @@ LDFLAGS += $(PRINTF_LIB) $(SCANF_LIB) $(MATH_LIB)
 AVRDUDE_PROGRAMMER = usbasp
 
 AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex
-#AVRDUDE_WRITE_FLASH += -U hfuse:w:0xd9:m -U lfuse:w:0xe7:m
+AVRDUDE_WRITE_FLASH += -U hfuse:w:0xd9:m -U lfuse:w:0xe7:m
 #AVRDUDE_WRITE_FLASH += -U lock:w:0x3c:m
 
 

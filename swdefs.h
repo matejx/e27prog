@@ -3,6 +3,7 @@
 
 	// SER
 	#define SER_NEED_PUTS
+	#define SER_NEED_PUTSP
 	#define SER_NEED_PUTI
 
 #endif
